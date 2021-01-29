@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react';
 import { Layout } from 'antd';
-import './Layout.scss';
+import './Layout.less';
 import SiderMenu from './Menu/SiderMenu';
 import ContentLayout from './ContentLayout';
 import { MenuInfo } from 'rc-menu/lib/interface';

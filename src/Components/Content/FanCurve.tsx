@@ -369,7 +369,7 @@ export default class FanCurve extends Component<Props, State> {
 				</PageHeader>
 				<Card
 					bordered
-					headStyle={{ backgroundColor: '#FAFAFA' }}
+					headStyle={{ backgroundColor: '#141414' }}
 					title={
 						<div style={{ width: '100%' }}>
 							Armoury Crate Plans

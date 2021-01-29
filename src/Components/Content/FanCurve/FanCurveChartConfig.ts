@@ -11,8 +11,11 @@ export const buildDataSet = (values: number[], chartId: string) => {
 			data: values,
 			fill: false,
 			pointHitRadius: 30,
-			borderColor: '#1890FF',
-			pointBorderColor: '#001529',
+			borderColor: '#c50000',
+			pointRadius: 4,
+			pointBorderColor: '#c50000',
+			pointBorderWidth: 2,
+			pointBackgroundColor: '#141414',
 		},
 	];
 };
@@ -32,12 +35,17 @@ const buildConfiguration = (
 					data: values,
 					fill: false,
 					pointHitRadius: 30,
-					borderColor: '#1890FF',
-					pointBorderColor: '#001529',
+					borderColor: '#c50000',
+					pointBorderColor: '#720000',
 				},
 			],
 		},
 		options: {
+			legend: {
+                labels: {
+                    fontColor: "white"
+                }
+            },
 			// the rest of your chart options, e.g. axis configuration
 			scales: {
 				yAxes: [
@@ -59,6 +67,10 @@ const buildConfiguration = (
 							suggestedMin: 0,
 							suggestedMax: 100,
 						},
+						gridLines: {
+							display: true,
+							color: "grey"
+						},
 					},
 				],
 				xAxes: [
@@ -68,6 +80,10 @@ const buildConfiguration = (
 						ticks: {
 							suggestedMin: 30,
 							suggestedMax: 100,
+						},
+						gridLines: {
+							display: true,
+							color: "grey"
 						},
 					},
 				],

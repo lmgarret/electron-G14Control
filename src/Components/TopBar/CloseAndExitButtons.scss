@@ -3,7 +3,7 @@
 .close-exit-group {
 	-webkit-user-select: auto !important;
 	-webkit-app-region: normal;
-	background-color: #001529;
+	background-color: #720000;
 	position: fixed;
 	z-index: 90000;
 	right: 0;
@@ -19,19 +19,19 @@
 		border: solid 1px darken(#1890ff, 30);
 		border-top: solid 2px #1890ff;
 		border-radius: 0 !important;
-		background-color: #001529;
+		background-color: #720000;
 		color: #1890ff;
 		line-height: 0.0001;
 		padding-top: 0rem;
 		&:active {
-			background-color: #001529 !important;
+			background-color: #720000 !important;
 		}
 		&:focus {
-			background-color: #001529 !important;
+			background-color: #720000 !important;
 		}
 		&:hover {
 			background-color: #1890ff;
-			color: #001529;
+			color: #720000;
 		}
 	}
 }
@@ -39,40 +39,40 @@
 	-webkit-app-region: no-drag;
 	pointer-events: all;
 	border-radius: none;
-	background-color: #001529;
+	background-color: #720000;
 	border: 1px solid #1890ff;
 	border-bottom: 2px solid #1890ff;
 	padding: 0;
 	color: white !important;
 	&:hover {
-		background-color: #001529;
+		background-color: #720000;
 	}
 	&:focus {
-		background-color: #001529;
+		background-color: #720000;
 	}
 	&:active {
-		background-color: #001529;
+		background-color: #720000;
 	}
 	&:visited {
-		background-color: #001529;
+		background-color: #720000;
 	}
 	&::selection {
-		background-color: #001529;
+		background-color: #720000;
 	}
 	.rc-virtual-list-holder-inner {
 		div {
 			&:hover {
-				background-color: lighten(#001529, 10);
+				background-color: lighten(#720000, 10);
 			}
 			.ant-select-item-option-content {
 				&:hover {
-					background-color: lighten(#001529, 10);
+					background-color: lighten(#720000, 10);
 				}
 				color: white;
 			}
 		}
 		.ant-select-item-option-active {
-			background-color: #001529;
+			background-color: #720000;
 		}
 	}
 }
@@ -90,7 +90,7 @@
 	width: 15%;
 	z-index: 1000000 !important;
 	right: 10%;
-	background-color: #001529 !important;
+	background-color: #720000 !important;
 	line-height: 1;
 	padding: 0;
 	.ant-select {
@@ -99,7 +99,7 @@
 	.ant-select-selector {
 		border: none !important;
 		border-radius: none !important;
-		background-color: #001529 !important;
+		background-color: #720000 !important;
 		padding: 0;
 		height: 20px !important;
 		border-bottom: 1px solid darken(#1890ff, 10) !important;

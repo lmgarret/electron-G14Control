@@ -1,8 +1,7 @@
 /** @format */
 
 import React, { Component, useEffect } from 'react';
-import './App.scss';
-import 'antd/dist/antd.css';
+import './App.less';
 import AppLayout from './Components/Layout';
 import { message, Modal, Spin } from 'antd';
 import { initStore, updateStore } from './Store/ReduxStore';

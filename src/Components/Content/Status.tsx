@@ -270,13 +270,13 @@ export default class Status extends Component<Props, State> {
 						bordered>
 						<Descriptions.Item className="desc-item-row" span={3} label="Name">
 							<div
-								style={{ padding: '2rem', backgroundColor: '#FAFAFA' }}
+								style={{ padding: '2rem', backgroundColor: '#141414' }}
 								className="desc-item-ver-vend">
 								Version
 							</div>
 
 							<div
-								style={{ padding: '2rem', backgroundColor: '#FAFAFA' }}
+								style={{ padding: '2rem', backgroundColor: '#141414' }}
 								className="desc-item-ver-vend">
 								Vendor
 							</div>

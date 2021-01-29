@@ -117,7 +117,7 @@ export default class GraphicsSettings extends Component<Props, State> {
 			padding: '1.6rem 1.2rem 2rem 1.2rem',
 			height: 'min-content',
 			lineHeight: '10px',
-			background: '#FAFAFA',
+			background: '#141414',
 			border: '1px solid #E0E0E0',
 		};
 
