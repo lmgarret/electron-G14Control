@@ -81,16 +81,14 @@ export default class CloseAndExitButtons extends Component<Props, State> {
 		let { launchEnabled, menuRef } = this.state;
 		return (
 			<>
-				<div className="dropdown-arrow">
-					<DownOutlined />
-				</div>
 				<Select
 					className="titlebar-menu-dropdown"
 					style={{ zIndex: 1000 }}
 					optionLabelProp={'Menu'}
 					// defaultValue="Menu"
 					ref={menuRef}
-					value="Menu"
+					value="..."
+					suffixIcon={null}
 					onMouseLeave={this.handleMenuEvents}
 					id="titlebar-dropdown-menu"
 					dropdownClassName="titlebar-menu-dropdown-panel"
