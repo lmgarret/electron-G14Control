@@ -5,7 +5,7 @@
 	width: 300px;
 	height: 260px;
 	top: 24px;
-	background-color: #f0f2f5;
+	background-color: #1b1b1b;
 	padding: 0.5rem 1rem 1rem 1rem;
 	button {
 		position: relative;
@@ -13,11 +13,11 @@
 		margin-left: 0.6rem;
 		margin-top: 0.5rem;
 		width: 100px;
-		background-color: lighten(#4b6074, 40);
+		background-color: lighten(#6e0000, 40);
 		border-radius: 0.3rem;
-		border: 1px solid lighten(#4b6074, 20);
+		border: 1px solid lighten(#6e0000, 20);
 		&:hover {
-			background-color: lighten(#4b6074, 30);
+			background-color: lighten(#6e0000, 30);
 		}
 	}
 	.cpu-presets-delete {
@@ -58,7 +58,7 @@
 }
 
 .smu-description {
-	background-color: #f0f2f5;
+	background-color: #1b1b1b;
 	border-radius: 0.2rem;
 	border: 1px solid orange;
 	padding: 0.2rem 0.4rem;
@@ -70,7 +70,7 @@
 	margin: 0.1rem;
 	width: 6.5rem;
 	height: 5.2rem;
-	background-color: #4b6074;
+	background-color: #6e0000;
 	border: 2px solid silver;
 	border-radius: 0.4rem;
 	label {
@@ -79,7 +79,7 @@
 }
 
 .monitor-list {
-	background-color: #f0f2f5;
+	background-color: #1b1b1b;
 	border: 1px solid #dddddd;
 	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 	border-radius: 0.9rem;

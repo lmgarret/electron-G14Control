@@ -1,7 +1,7 @@
 /** @format */
 
 .App-header {
-	background-color: #282c34;
+	background-color: #141414;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -12,7 +12,7 @@
 }
 
 .App-link {
-	color: #61dafb;
+	color: #61fb69;
 }
 .dragArea {
 	position: absolute;
@@ -23,9 +23,9 @@
 .topDrag {
 	-webkit-app-region: drag;
 	-webkit-user-select: auto;
-	background: darken(#001529, 0);
-	border-top: 2px solid #1890ff;
-	border-bottom: 0.5px solid lighten(#001529, 10);
+	background: darken(#141414, 0);
+	border-top: 2px solid #141414;
+	border-bottom: 0.5px solid lighten(#141414, 10);
 	width: 100%;
 	height: 2rem;
 	position: fixed;

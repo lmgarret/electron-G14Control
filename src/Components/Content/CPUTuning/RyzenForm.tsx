@@ -33,7 +33,7 @@ function RyzenFormItem(itemProps: ItemProps) {
 			key={caseKey + '-radjFormItem'}
 			label={formLabel}
 			style={{
-				backgroundColor: '#F0F2F5',
+				backgroundColor: '#1b1b1b',
 				margin: '0rem',
 				padding: '.3rem',
 				border: '1px solid #D7D9DB',

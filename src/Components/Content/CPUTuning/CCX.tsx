@@ -84,7 +84,7 @@ export default class CCX extends Component<Props, State> {
 				style={{
 					margin: '.5rem',
 					width: '46%',
-					backgroundColor: '#556a7e',
+					backgroundColor: '#692020',
 					borderRadius: '1rem',
 					border: '2px solid silver',
 				}}>

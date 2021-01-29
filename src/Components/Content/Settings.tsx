@@ -261,7 +261,7 @@ to perform well, I decided to embark on making a new version, and this is the re
 				<Space direction="vertical">
 					<Card
 						title="Shortcut: Bring to front or minimize"
-						headStyle={{ backgroundColor: '#F0F2F5' }}
+						headStyle={{ backgroundColor: '#1b1b1b' }}
 						bordered>
 						<Space direction="vertical">
 							<div>

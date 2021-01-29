@@ -105,7 +105,7 @@ export default class PlanTable extends Component<Props, State> {
 								header={
 									<>
 										{data.name}{' '}
-										{data.active ? <Tag color="green">Active</Tag> : ''}
+										{data.active ? <Tag color="red">Active</Tag> : ''}
 									</>
 								}
 								key={data.name + ' ' + data.guid}>
